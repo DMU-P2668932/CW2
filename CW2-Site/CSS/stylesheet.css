@@ -1,0 +1,206 @@
+body {
+background-color: black;
+/*sets the background color of the page to black*/
+background-size: cover;
+/*this value makes the background color covers the page*/
+width: auto;
+height: auto;
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+/*Hides text overflow on the x axis*/}
+
+.Title {
+color: black;
+/*changes the colour of the text*/
+text-align: center;
+/*make the title text be in the centre of the page*/
+text-shadow: 2px 2px 2px darkred;
+/*adds shadowing to the text*/
+font-size: 20mm;
+/*increases the font size*/
+border-style: solid;
+/*changes the type of border*/
+border-radius: 1%;
+/*makes the corners of the border be 1% radius*/
+background: white;
+/*changes the colour of the text's background to white*/
+border-width: 0px;
+}
+
+.logo {
+width: 100px;
+/*changes the width of the image*/
+height: 80px;
+/*changes the height of the image*/
+position: absolute;
+/*dictates the positioning, so that the image doesn't move down the page*/
+top: 7.2%;
+/*dictates how close the image is to the top*/
+left: 3%;
+/*dictates how close the image is to the left*/
+animation: mymove 5s linear infinite normal;}
+
+@keyframes mymove {
+0% {top: 7.2%; left: 3%}
+50% {left: 10%}
+100% {left: 3%}
+}
+
+.Menu {
+position: relative;
+left: 25%}
+
+.buttons {
+  border: none;
+  color: black;
+  padding: 15px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0;
+  cursor: pointer;}
+
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 15px 10px;
+  font-size: 16px;
+  border: none;
+}
+
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: darkgrey;}
+
+.FairUse {
+color: white;
+border-color: white;
+border-style: solid;}
+
+.Channelimages {
+display: flex;
+/*turn the images into a flex box*/
+flex-direction: column;
+/*has the images inside of the flex be displayed as a column*/
+float: right;}
+
+.Channeltitle {
+  color: White;
+  /*changes the colour of the text*/
+  text-align: center;
+  /*make the title text be in the centre of the page*/
+  text-shadow: 2px 2px 2px darkred;
+  /*adds shadowing to the text*/
+  font-size: 15mm;
+  /*increases the font size*/
+  border-style: solid;
+  /*changes the type of border*/
+  border-radius: 1%;
+  /*makes the corners of the border be 1% radius*/
+  border-width: 0px;
+  /*makes it so there's no width to the border*/
+}
+
+.info {
+color: white;
+font-size: 18px;
+padding: 6px;}
+
+.Channelinfo {
+color: white;
+font-size: 18px;
+margin-right: 35%;
+display: flex;}
+
+.About {
+color: white;
+font-size: 25px;
+text-align: left;
+padding: 6px;}
+
+.Channelgifs {
+margin-left: auto;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+float: right;}
+
+.notwork {
+color: white;
+border-color: white;
+background-color: black;}
+
+.warningmessage {
+  color: black;
+  /*changes the colour of the text*/
+  text-align: center;
+  /*make the title text be in the centre of the page*/
+  font-size: 5mm;
+  /*increases the font size*/
+  border-style: ridge;
+  /*changes the type of border*/
+  border-radius: 1%;
+  /*makes the corners of the border be 1% radius*/
+  background: white;
+  /*changes the colour of the text's background to white*/
+  overflow: hidden;
+  opacity: 100%;
+  transition: width 2s, height 2s, transform}
+
+.warning {
+text-align: center;
+width: 80px;
+height: 50px;
+background-color: white;
+overflow: hidden;
+opacity: 100;
+transition: width 1s, height 1s, transform}
+
+.warning:hover {
+width: 1000px;
+height: 100px:}
+
+.warningitem {
+pointer-events: none;}
+
+.warning.out .warningItem {
+pointer-events: all;
+opacity: 100%}
+
+.Videos {
+width: 600px;}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--Has the page's contents be the full width of the device-->
+    <link rel="stylesheet" href="CSS\stylesheet.css" type="text/css"/>
+    <!--Links the CSS sheet to the main page, avoiding un-necessary clutter-->
+    <title>About Page</title>
+  </head>
+  <body>
+<h1 class="Title">Guide to analogue horror</h1>
+<!--Title of the page-->
+<img class="logo" src="Images\Logo.gif" alt="The logo of the site">
+<!--A gif inserted into the site, with alt text for screen reading software-->
+
+<div class="Menu">
+<button onclick="document.location= 'About.html'" class="buttons">Main Menu</button>
+<button onclick="document.location= 'Local58.html'" class="buttons">Local58</button>
+<button onclick="document.location= 'Mandela.html'" class="buttons">The Mandela Catalogue</button>
+<button onclick="document.location= 'Memebear.html'" class="buttons">Memebear</button>
+<button onclick="document.location= 'Origins.html'" class="buttons">Origins</button>
+
+<div class="dropdown">
+  <button class="dropbtn">Top 5</button>
+  <div class="dropdown-content">
+    <a href="Number 5.html">Number 5</a>
+    <a href="Number 4.html">Number 4</a>
+    <a href="Number 3.html">Number 3</a>
+    <a href="Number 2.html">Number 2</a>
+    <a href="Number 1.html">Number 1</a>
+  </div>
+</div>
+</div >
+
+<div class="Channelimages">
+<a href="https://www.youtube.com/c/LOCAL58TV">
+<img src="Images\L58 profile.jpg" alt="Local 58 profile image">
+</a>
+<a href="https://www.youtube.com/c/MandelaCatalogue">
+<img src="Images\MC profile.jpg" alt="The Mandela Catalogue profile image">
+</a>
+<a href="https://www.youtube.com/channel/UC8hpTLJ2F5nY8IbiH_QvNgg">
+<img src="Images\MB profile.jpg" alt="Memebear profile image">
+</a>
+</div>
+
+<p class="About">Analogue horror is overall quite similar to found footage, but
+instead usually has the viewer as the main character. The formats of the videos
+commonly take on that of messages or files, such as EAS alerts or .mp4 files; the
+videos overall follow a theme of starting seemingly innocent or boring, and drip-feeding the horror elements
+until a climax at the end of the video.
+The genre possibly started with the EAS videos that many made on YouTube, using audio moreso
+than visuals to portray the horror elements. These videos then expanded into other styles
+of videos, such as news or TV broadcasts, or security footage; this also sometimes extends
+to the channel, as some that present the videos as news broadcasts present the channel as
+a news channel. Local58 was the first channel to implement these elements, causing several
+imitations after the first video was uploaded. As the genre began to grow, users started to bring
+other themes into their videos, such as many using the Five Nights at Freddy's lore, and expanding on it
+or adapting themes of the series into the videos. Another example of this is the idea of 'The Backrooms',
+where someone can phase out of our reality and into another, much more dangerous one.
+<br>
+Whilst the genre definitely existed before, popularity and content were viewed by many during the recent
+Covid-19 lockdowns, such as with the Mandela Catalogue. This is likely due to the viewer being the main
+character in the majority of these videos, similar to ARGs (alternate reality games), so the
+mundaneness of being stuck at home would be broken up with the surreal and paranormal nature of
+analogue horror.</p>
+<br><br><br><br>
+<br><br><br><br>
+<nav class="warning">
+<p>WARNING
+<br>
+The content of the other pages contains possibly distressing material. If you
+feel uncomfortable with these themes, please exit the site</p>
+</nav>
+<script>
+  toggleAnimation = (evt) => {
+    evt.target.classList.toggle("out");
+  };
+  document
+    .querySelector(".menu")
+    .addEventListener("click", toggleAnimation);
+</script>
+<br>
+<footer class="FairUse">Copyright disclaimer under section 107 of the Copyright
+Act, 1976, allowance is made for fair use for purposes of criticism, commentary,
+education and/or research. Copyrighted content featured on this site is used in
+relation to this act.</footer>
+
+  </body>
+</html>
