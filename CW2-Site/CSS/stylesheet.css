@@ -4,9 +4,13 @@ background-color: black;
 background-size: cover;
 /*this value makes the background color covers the page*/
 width: auto;
+/*Sets the width setting to automatic*/
 height: auto;
+/*Sets the height setting to automatic*/
 margin: 0;
+/*Sets the margins on all edges to 0*/
 padding: 0;
+/*Sets the padding on all edges to 0*/
 overflow-x: hidden;
 /*Hides text overflow on the x axis*/}
 
@@ -43,81 +47,111 @@ animation: mymove 5s linear infinite normal;}
 
 @keyframes mymove {
 0% {top: 7.2%; left: 3%}
+/*Sets the position keyframe at 0%*/
 50% {left: 10%}
+/*Sets the keyframe position at 50%*/
 100% {left: 3%}
-}
+/*Sets the keyframe position at 100%*/}
 
 .Menu {
 position: relative;
-left: 25%}
+/*Sets the menu position as relative to the page*/
+left: 25%
+/*Has the menu have a 25% left margin*/}
 
 .buttons {
   border: none;
+/*Removes any border*/
   color: black;
+/*sets the colour to black*/
   padding: 15px 10px;
+/*Has the paddings as 15px thick and 10px thick*/
   text-align: center;
+/*Aligns the text in the centre*/
   text-decoration: none;
+/*Has the text have no decoration*/
   display: inline-block;
+/*Displays the buttons as a single inline block*/
   font-size: 16px;
+/*Sets the font size to 16px*/
   margin: 0;
-  cursor: pointer;}
+/*Sets the margin to 0*/
+  cursor: pointer;
+/*Changes the cursor to a pointer when highlighted*/}
 
-
-/* Dropdown Button */
 .dropbtn {
   background-color: white;
+/*Changes the background colour to white*/
   color: black;
+/*Changes the text colour to black*/
   padding: 15px 10px;
+/*Has the paddings as 15px thick and 10px thick*/
   font-size: 16px;
+/*Sets the font size to 16px*/
   border: none;
-}
+/*Removes the border*/}
 
 
 
-/* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
+/*Sets the position to relative*/
   display: inline-block;
-}
+/*Has the content displayed as an inline block*/}
 
-/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
+/*Has no display rules*/
   position: absolute;
+/*The position will not move with the page*/
   background-color: #f1f1f1;
+/*F code for the colour*/
   min-width: 160px;
+/*The minimum width for the dropdown*/
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+/*Sets the values for the box shadow*/
   z-index: 1;
-}
+/*Sets the stack order to 1*/}
 
-/* Links inside the dropdown */
+
 .dropdown-content a {
   color: black;
+/*Sets the colour to black*/
   padding: 12px 16px;
+/*Sets the padding to 12px and 16px*/
   text-decoration: none;
+/*No text decoration*/
   display: block;
-}
+/*Displays the content as a block value*/}
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: darkgrey;}
+.dropdown-content a:hover {background-color: #ddd;
+/* Changes colour of the links when hovering */}
+
+
+.dropdown:hover .dropdown-content {display: block;
+/*The menu shows when hovering over it*/}
+
+
+.dropdown:hover .dropbtn {background-color: darkgrey;
+/*Background colour changes when highlighted*/}
 
 .FairUse {
 color: white;
+/*Sets the colour to white*/
 border-color: white;
-border-style: solid;}
+/**/
+border-style: solid;
+/**/}
 
 .Channelimages {
 display: flex;
 /*turn the images into a flex box*/
 flex-direction: column;
 /*has the images inside of the flex be displayed as a column*/
-float: right;}
+float: right;
+/*Content floats on the right side*/}
 
 .Channeltitle {
   color: White;
@@ -138,32 +172,51 @@ float: right;}
 
 .info {
 color: white;
+/*Sets the colour th white*/
 font-size: 18px;
-padding: 6px;}
+/*Sets the font size to 18px*/
+padding: 6px;
+/*Sets the padding space to 6px*/}
 
 .Channelinfo {
 color: white;
+/*Sets the colour to white*/
 font-size: 18px;
+/*Sets the font size to 18px*/
 margin-right: 35%;
-display: flex;}
+/*Sets the right margin to 35%*/
+display: flex;
+/*Displays the content as a flex box*/}
 
 .About {
 color: white;
+/*Sets the text colour to white*/
 font-size: 25px;
+/*Sets the font size to 25px*/
 text-align: left;
-padding: 6px;}
+/*Aligns the text to the left*/
+padding: 6px;
+/*Sets the padding of all edges to 6px*/}
 
 .Channelgifs {
 margin-left: auto;
+/*Sets the left margin to automatic*/
 display: flex;
+/*Displays the content in a flex box*/
 flex-direction: column;
+/*Aligns the flex items in a vertical column*/
 align-items: flex-start;
-float: right;}
+/*Aligns the items from the first value to the end value*/
+float: right;
+/*Floats on the right*/}
 
 .notwork {
 color: white;
+/*Sets the text colour to white*/
 border-color: white;
-background-color: black;}
+/*Sets the colour of the border to white*/
+background-color: black;
+/*Sets the background colour to black*/}
 
 .warningmessage {
   color: black;
@@ -179,28 +232,44 @@ background-color: black;}
   background: white;
   /*changes the colour of the text's background to white*/
   overflow: hidden;
+  /*Hides any overflowing text*/
   opacity: 100%;
+  /*Has the opacity as 100%, or solid*/
   transition: width 2s, height 2s, transform}
+  /*Transitions, with the width and height changing in the span of 2 seconds*/
 
 .warning {
 text-align: center;
+/*Aligns the text in the centre*/
 width: 80px;
+/*Sets the width to 80px*/
 height: 50px;
+/*Sets the height to 50px*/
 background-color: white;
+/*Sets the background colour to white*/
 overflow: hidden;
+/*Hides the overflowing text*/
 opacity: 100;
-transition: width 1s, height 1s, transform}
+/*Sets the opacity to 100%*/
+transition: width 1s, height 1s, transform
+/*Sets the transition times to be complete in a 1 second duration*/}
 
 .warning:hover {
 width: 1000px;
-height: 100px:}
+/*Sets the width to 100px*/
+height: 100px:
+/*Sets the height to 100px*/}
 
 .warningitem {
-pointer-events: none;}
+pointer-events: none;
+/*Sets the pointer to trigger no events*/}
 
 .warning.out .warningItem {
 pointer-events: all;
-opacity: 100%}
+/*Sets the pointer to trigger all events */
+opacity: 100%
+/*Sets the opacity to 100%*/}
 
 .Videos {
-width: 600px;}
+width: 600px;
+/*Sets the automatic video width to 600px*/}

@@ -1,51 +1,85 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+<!--Opens the head tag-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <!--Has the page's contents be the full width of the device-->
     <link rel="stylesheet" href="CSS\stylesheet.css" type="text/css"/>
     <!--Links the CSS sheet to the main page, avoiding un-necessary clutter-->
     <title>About Page</title>
+<!--Adds a title to the code page-->
   </head>
+<!--Closes the head tag-->
   <body>
+<!--Opens the body tag-->
 <h1 class="Title">Guide to analogue horror</h1>
 <!--Title of the page-->
 <img class="logo" src="Images\Logo.gif" alt="The logo of the site">
 <!--A gif inserted into the site, with alt text for screen reading software-->
 
 <div class="Menu">
+<!--Opens the menu div-->
 <button onclick="document.location= 'About.html'" class="buttons">Main Menu</button>
+<!--Leads to the chosen document when clicked, with the name being on the button-->
 <button onclick="document.location= 'Local58.html'" class="buttons">Local58</button>
+<!--Leads to the chosen document when clicked, with the name being on the button-->
 <button onclick="document.location= 'Mandela.html'" class="buttons">The Mandela Catalogue</button>
+<!--Leads to the chosen document when clicked, with the name being on the button-->
 <button onclick="document.location= 'Memebear.html'" class="buttons">Memebear</button>
+<!--Leads to the chosen document when clicked, with the name being on the button-->
 <button onclick="document.location= 'Origins.html'" class="buttons">Origins</button>
+<!--Leads to the chosen document when clicked, with the name being on the button-->
 
 <div class="dropdown">
-  <button class="dropbtn">Top 5</button>
+<!--Opens the dropdown duv-->
+<button class="dropbtn">Top 5</button>
+<!--Adds a button in the chosen class-->
   <div class="dropdown-content">
+<!--Opens the dropdownn-content div-->
     <a href="Number 5.html">Number 5</a>
+<!--Anchors to the Number 5 html page-->
     <a href="Number 4.html">Number 4</a>
+<!--Anchors to the Number 4 html page-->
     <a href="Number 3.html">Number 3</a>
+<!--Anchors to the Number 3 html page-->
     <a href="Number 2.html">Number 2</a>
+<!--Anchors to the Number 2 html page-->
     <a href="Number 1.html">Number 1</a>
+<!--Anchors to the Number 1 html page-->
   </div>
+<!--Closes the div-->
 </div>
+<!--Closes the div-->
 </div >
+<!--Closes the div-->
 
 <div class="Channelimages">
+<!--Opens the div-->
 <a href="https://www.youtube.com/c/LOCAL58TV">
+<!--Leads to the youtube site-->
 <img src="Images\L58 profile.jpg" alt="Local 58 profile image">
+<!--Sources the image from the folder-->
 </a>
-<a href="https://www.youtube.com/c/MandelaCatalogue">
-<img src="Images\MC profile.jpg" alt="The Mandela Catalogue profile image">
-</a>
-<a href="https://www.youtube.com/channel/UC8hpTLJ2F5nY8IbiH_QvNgg">
-<img src="Images\MB profile.jpg" alt="Memebear profile image">
-</a>
-</div>
+<!--Closes the anchor-->
 
-<p class="About">Analogue horror is overall quite similar to found footage, but
+<a href="https://www.youtube.com/c/MandelaCatalogue">
+<!--Leads to the youtube channel when clicked-->
+<img src="Images\MC profile.jpg" alt="The Mandela Catalogue profile image">
+<!--Sources the image from the folder-->
+</a>
+<!--Closes the anchor-->
+
+<a href="https://www.youtube.com/channel/UC8hpTLJ2F5nY8IbiH_QvNgg">
+<!--Leads to the youtube channel when clicked-->
+<img src="Images\MB profile.jpg" alt="Memebear profile image">
+<!--Sources the image from the folder-->
+</a>
+<!--Closes the anchor-->
+</div>
+<!--Closes the div-->
+
+<p class="About"><!--Opens a paragraph tag in the chosen class-->Analogue horror is overall quite similar to found footage, but
 instead usually has the viewer as the main character. The formats of the videos
 commonly take on that of messages or files, such as EAS alerts or .mp4 files; the
 videos overall follow a theme of starting seemingly innocent or boring, and drip-feeding the horror elements
@@ -60,19 +94,27 @@ other themes into their videos, such as many using the Five Nights at Freddy's l
 or adapting themes of the series into the videos. Another example of this is the idea of 'The Backrooms',
 where someone can phase out of our reality and into another, much more dangerous one.
 <br>
-Whilst the genre definitely existed before, popularity and content were viewed by many during the recent
+<!--Line break to split the content-->
 Covid-19 lockdowns, such as with the Mandela Catalogue. This is likely due to the viewer being the main
+Whilst the genre definitely existed before, popularity and content were viewed by many during the recent
 character in the majority of these videos, similar to ARGs (alternate reality games), so the
 mundaneness of being stuck at home would be broken up with the surreal and paranormal nature of
 analogue horror.</p>
+<!--Closes the paragraph-->
 <br><br><br><br>
 <br><br><br><br>
+<!--Line breaks used to create empty space-->
+
 <nav class="warning">
+<!--Opens the nav tag-->
 <p>WARNING
 <br>
+<!--Line break to split the content-->
 The content of the other pages contains possibly distressing material. If you
 feel uncomfortable with these themes, please exit the site</p>
+<!--Closes the paragraph-->
 </nav>
+<!--Closes the nav-->
 <script>
   toggleAnimation = (evt) => {
     evt.target.classList.toggle("out");
@@ -81,11 +123,16 @@ feel uncomfortable with these themes, please exit the site</p>
     .querySelector(".menu")
     .addEventListener("click", toggleAnimation);
 </script>
+<!--External Javascript code, sourced from https://thomcorah.github.io/dmu-multimedia/lab-reader.html?CSS-Transition-lab.md-->
+
 <br>
-<footer class="FairUse">Copyright disclaimer under section 107 of the Copyright
+<!--Line break to break up the content more-->
+<footer class="FairUse"><!--Adds a footer with the chosen class-->Copyright disclaimer under section 107 of the Copyright
 Act, 1976, allowance is made for fair use for purposes of criticism, commentary,
 education and/or research. Copyrighted content featured on this site is used in
 relation to this act.</footer>
-
+<!--Footer element for the base of the page, stating the fair use laws-->
   </body>
+<!--Closes the body tag-->
 </html>
+<!--Closes the html tag-->
